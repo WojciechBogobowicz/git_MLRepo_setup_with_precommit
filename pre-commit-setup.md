@@ -50,6 +50,9 @@ pip install pre-commit
 pre-commit --version
 ```
 4. Copy [.pre-commit-config.yaml](.pre-commit-config.yaml) file to your main project folder.
+```console
+curl -o .pre-commit-config.yaml https://raw.githubusercontent.com/WojciechBogobowicz/git_MLRepo_setup_with_precommit/master/.pre-commit-config.yaml
+```
 5. Run pre-commit install to set up the git hook scripts
 ```console
 pre-commit install
