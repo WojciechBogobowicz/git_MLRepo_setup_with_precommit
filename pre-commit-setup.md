@@ -1,3 +1,12 @@
+# Table of content:
+
+- [What is pre-commit?](#what-is-pre-commit-)
+- [Hooks proposed for ML project:](#hooks-proposed-for-ml-project-)
+- [Other hooks worth consideration.](#other-hooks-worth-consideration)
+- [How to setup pre-commit for ml project:](#how-to-setup-pre-commit-for-ml-project-)
+- [New repository github quick setup:](#new-repository-github-quick-setup-)
+
+
 # What is pre-commit?
 Pre-commit is a tool written in python that allows user to easily define and install git hooks (Shell scripts found in the hidden . git/hooks directory of a Git repository. These scripts trigger actions in response to specific events, so they can help automate development lifecycle.).  
 - Official introduction to this library can be found on the [project website](https://pre-commit.com/).  
