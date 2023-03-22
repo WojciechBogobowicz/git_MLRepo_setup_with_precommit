@@ -95,3 +95,24 @@ Date: ...*
 ```console
 git cherry-pick <commit-hash>
 ```
+
+# New repository github quick setup:
+----
+`Note:`   
+*At this point I assume that you have already installed pre-commit. If not, run command below firstly.*
+```
+pip install pre-commit
+```
+----
+This setup automatically initialize repository, create dev and wip (work in progress) branches, and setup git hooks.  
+To use it, just open cmd, go to folder where you you want to init repo, and copy paste those commands.
+```console
+git init
+curl -o .pre-commit-config.yaml https://raw.githubusercontent.com/WojciechBogobowicz/git_MLRepo_setup_with_precommit/master/.pre-commit-config.yaml
+git add ./.pre-commit-config.yaml
+git commit -m "pre-commit configured."
+pre-commit install
+git checkout -b dev
+git checkout -b wip
+
+```
